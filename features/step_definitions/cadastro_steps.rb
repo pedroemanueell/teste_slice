@@ -9,6 +9,6 @@ Quando("realizar um novo cadastro") do
     @cadastro.cadastrando_usuario
   end
 Então("eu tenho que ver o cadastro finalizado") do
-    # @compras = expect(find('div[class="title-section edit"]').text).to  have_content 'IDENTIFICAÇÃO'
-    # puts @compras
+    @compras = expect(find('div[class="title-section edit"]').text).to  have_content 'IDENTIFICAÇÃO'
+    puts @compras
   end

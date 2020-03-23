@@ -8,7 +8,7 @@ class Hard_paywall_page < SitePrism::Page
     def acessando_conta 
         ico_login.click
         ipnut_email.set     'virtualsabino@estadao.com.br'
-        input_senha.set     '3s7@DA0'
+        input_senha.set     '123'
         button_entrar.click
         ico_login.click
     end
